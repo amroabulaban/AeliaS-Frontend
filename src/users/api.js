@@ -1,6 +1,6 @@
 import axios from "axios";
 
-//best practice to be in a constants file
+//best practice to be in a constants file but no need for now
 const BASE_URL = "http://localhost:8000";
 const commInstance = axios.create({
   baseURL: BASE_URL,
